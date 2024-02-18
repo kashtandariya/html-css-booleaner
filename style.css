@@ -1,8 +1,62 @@
-header {
+/* RESET */
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+figure {
+    margin: 0;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-light-blue {
     background-color: lightblue;
 }
 
-.img-1 {
-    width: 200px;
-    height: 200px;
+.w-50 {
+    width: 25%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.page-header {
+    background-color: #9cd6f4;
+    padding: 30px 16px;
+}
+
+.article__title {
+    font-size: 32px;
+}
+
+.article__info {
+    color: rgb(100, 100, 100);
+}
+
+.article a {
+    color: rgb(11, 55, 201);
+}
+
+.page-header .logo {
+    height: 50px;
+}   
+
+.page-footer {
+    background-color: #313b6b;
+    color: white;
+    padding: 12px 16px;
+    text-align: center;
 }
